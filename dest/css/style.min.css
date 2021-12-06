@@ -1,0 +1,44 @@
+.sidebar--container {
+  border-radius: 20px;
+  background-color: #dad9d9;
+}
+.class--sidebar1[aria-expanded="true"] {
+  background: #78B7F2 !important;
+  color: #fff !important;
+}
+.class--sidebar2[aria-expanded="true"] {
+  background: #78B7F2 !important;
+  color: #fff !important;
+}
+.class--sidebar3[aria-expanded="true"] {
+  background: #78B7F2 !important;
+  color: #fff !important;
+}
+.class--sidebar4[aria-expanded="true"] {
+  background: #78B7F2 !important;
+  color: #fff !important;
+}
+.class--sidebar5[aria-expanded="true"] {
+  background: #78B7F2 !important;
+  color: #fff !important;
+}
+.class--sidebar6[aria-expanded="true"] {
+  background: #78B7F2 !important;
+  color: #fff !important;
+}
+.input-group1 {
+  width: 66% ;
+}
+.form-control1 {
+  position: relative;
+  width: 100%;
+}
+.form-control1:before {
+  content: '*?Фильтр уроков?*' attr(data-domain);
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  font-size: 12px;
+  display: block;
+  color: #000;
+}
